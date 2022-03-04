@@ -9,9 +9,6 @@
     <title>Banking System</title>
 </head>
 <body>
-    <form action="transform_money.php">
-        <button type="submit" value="Get Started">Get Started</button>
-</form>
     
 </body>
 </html>
