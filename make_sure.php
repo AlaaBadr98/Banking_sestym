@@ -5,6 +5,8 @@ $username = "root";
 $password = "";
 $dbname = "banking_system";
 
+
+
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
@@ -15,11 +17,17 @@ if ($conn->connect_error) {
 $from=$_POST['customerfrom'];
 $to=$_POST['customerto'];
 $money=$_POST['money'];
-$sql="SELECT`money` FROM `customers` WHERE `name`=`$from`
+ echo $from;
+// echo $to;
+// echo $money;
+// $sql="SELECT `money` FROM `customers` WHERE `name`=`$from`
+//        SELECT`money` FROM `customers` WHERE `name`=`$to`";
+$sql="SELECT `money` FROM `customers`WHERE `id`=$from
        SELECT`money` FROM `customers` WHERE `name`=`$to`";
 $result = $conn->query($sql);
-$row = $result->fetch_assoc()
+$row = $result->fetch_assoc();
 
+print_r($row);
 
 $conn->close();
 ?>
