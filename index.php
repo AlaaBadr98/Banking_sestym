@@ -10,7 +10,10 @@
 </head>
 <body>
     <form action="transform_money.php">
-        <button type="submit" value="Get Started">Get Started</button>
+        <button type="submit" value="Get Started">Transfer Money</button>
+</form>
+<form action="all_data.php">
+        <button type="submit" value="Get Started">Show all transformations</button>
 </form>
     
 </body>
