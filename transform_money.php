@@ -9,6 +9,8 @@
     <title>Banking System</title>
 </head>
 <body>
+<div class="container">
+    <div class="startContainer">
     <form method="post" action="make_sure.php">
         <div id="section1">
         <lable>Choose the customer</lable>
@@ -49,7 +51,8 @@
 <button type="submit">Next</button>
 </div>
 </form>
-
+</div>
+</div>
 <script src="js/js.js"></script>
 </body>
 </html>

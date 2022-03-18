@@ -9,12 +9,15 @@
     <title>Banking System</title>
 </head>
 <body>
+    <div class="container">
+    <div class="startContainer">
     <form action="transform_money.php">
-        <button type="submit" value="Get Started">Transfer Money</button>
+        <button class='button' type="submit" value="Get Started">Transfer Money</button>
 </form>
 <form action="all_data.php">
-        <button type="submit" value="Get Started">Show all transformations</button>
+        <button class='button' type="submit" value="Get Started">Show all transformations</button>
 </form>
-    
+</div>
+</div>
 </body>
 </html>
