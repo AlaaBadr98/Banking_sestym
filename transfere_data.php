@@ -17,11 +17,7 @@ if ($conn->connect_error) {
 $from=$_POST['customerfrom'];
 $to=$_POST['customerto'];
 $money=$_POST['money'];
- echo $from;
-// echo $to;
-// echo $money;
-// $sql="SELECT `money` FROM `customers` WHERE `name`=`$from`
-//        SELECT`money` FROM `customers` WHERE `name`=`$to`";
+
 $sql="SELECT `money` FROM `customers`WHERE `id`=$from
        SELECT`money` FROM `customers` WHERE `name`=`$to`";
 $result = $conn->query($sql);

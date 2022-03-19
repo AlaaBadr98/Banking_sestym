@@ -11,10 +11,10 @@
 <body>
 <div class="container">
     <div class="startContainer">
-    <form method="post" action="make_sure.php">
+    <form method="post" action="transfere_data.php">
         <div id="section1">
-        <lable>Choose the customer</lable>
-        <select id="customer" name="customerfrom">
+        <lable class='text'>Choose the customer</lable>
+        <select class='select' id="customer" name="customerfrom">
   <option value="1">Alaa Osama Mohamed</option>
   <option value="2">Shimaa Mostafa Kamal</option>
   <option value="3">Eman Ahmed Mohamed</option>
@@ -28,11 +28,11 @@
   <option value="11">Rasha Mohammed Ahmed</option>
   <option value="12">Mohamed Ahmed Mohamed</option>
 </select>
-<button id="next">Next</button>
+<button class='button' id="next">Next</button>
 </div >
 <div id="section2" style="display:none">
-<lable>Choose who you want to trasnfere to:</lable><br>
-        <select id="customer" name="customerto">
+<lable class='text'>Choose who you want to trasnfere to:</lable><br>
+        <select class='select' id="customer" name="customerto">
   <option value="1">Alaa Osama Mohamed</option>
   <option value="2">Shimaa Mostafa Kamal</option>
   <option value="3">Eman Ahmed Mohamed</option>
@@ -46,9 +46,9 @@
   <option value="11">Rasha Mohammed Ahmed</option>
   <option value="12">Mohamed Ahmed Mohamed</option>
 </select><br>
-<input type="text" name="money" placeholder="Amount of money" required><br>
+<input class='input' type="text" name="money" placeholder="Amount of money" required><br>
 <button id="back">Back</button>
-<button type="submit">Next</button>
+<button class='button' type="submit">Next</button>
 </div>
 </form>
 </div>
