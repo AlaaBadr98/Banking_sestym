@@ -16,8 +16,9 @@
             <img src="images/background.jpg" class="header_img">
             <div class="webName">Banking System</div>
             <div class="menuContainer">
-           <a href="transform_money.php" style="display: block;" class="admin"> <button class="menuButton" id="allBooks">Transfer Money</button></a>
-            <a href="all_data.php" style="display: block;" class="admin"> <button class="menuButton" id="addBook">Show all transformations</button></a>
+           <a href="transform_money.php" style="display: block;" class="admin"> <button class="menuButton" >Transfer Money</button></a>
+            <a href="all_data.php" style="display: block;" class="admin"> <button class="menuButton" >Show customers data</button></a>
+            <a href="history.php" style="display: block;" class="admin"> <button class="menuButton">Transformation History</button></a>
 
                 <div class="links navBar" id="showNav">
                     <span class="icon">
@@ -27,7 +28,8 @@
                     </span>
                     <ul id="showing">
                     <li><a href="transform_money.php" style="display:block;" class="admin">Transfer Money</a></li>
-                        <li><a href="all_data.php"style="display: block;" class="admin"> Show all transformations </a></li>
+                        <li><a href="all_data.php"style="display: block;" class="admin"> Show customers data</a></li>
+                        <li><a href="history.php"style="display: block;" class="admin"> Transformation History </a></li>
                     </ul>
                 </div>
             </div>
@@ -52,7 +54,10 @@ var show = document.getElementById("showNav");
         <button class='button' type="submit" value="Get Started">Transfer Money</button>
 </form>
 <form action="all_data.php">
-        <button class='button' type="submit" value="Get Started">Show all transformations</button>
+        <button class='button' type="submit" value="Get Started">Show customers data</button>
+</form>
+<form action="history.php">
+        <button class='button' type="submit" value="Get Started">Transformation History</button>
 </form>
 </div>
 <div class="footer">

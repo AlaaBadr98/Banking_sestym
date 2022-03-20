@@ -1,9 +1,11 @@
+/* main styles */
 body{
     margin: 0;
     padding: 0;
     
     
 }
+/* home page (index page) */
 .container{
     display: flex;
     flex-direction: column;
@@ -218,25 +220,7 @@ body{
         width: fit-content;
     }
 }
-.text{
-    display: block;
-    font-size: 1.5em;
-    font-family: sans-serif;
-    color: #2f4060;
-}
-.select{
 
-}
-.input{
-    border-radius: 15px;
-    font-size: 12px;
-    padding-left: 15px;
-    border-color: #3f75b5;
-}
-.section1{
-    
-
-}
 /***** footer *********/
 .footer{
     display: flex;
@@ -313,4 +297,93 @@ body{
     border-top: 4px solid;
     border-bottom: 4px solid;
     transform: skewY(-20deg);
+  }
+  /***************** transfere money page ********************/
+.transfereContainer{
+    position: relative;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    height: fit-content;
+    background-color: #ffff;
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgb(0 0 0 / 60%);
+    opacity: 90%;
+    padding: 5%;
+    margin: 5%;
+}
+.back{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+.back a{
+    display: inline-block;
+    font-size: 1em;
+    width: 1em;
+    height: 1em;
+    padding: 0.3em;
+    text-align: center;
+    transition: .4s linear;
+    position: relative;
+    border-radius: 50%;
+    color: #3f75b5;
+    background-color: #fff;
+  }
+  .back a:hover{
+    color: #fff;
+    background-color: #3f75b5;
+  }
+  .transfereform{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align-last: center;
+  }
+.text{
+    display: block;
+    font-size: 1em;
+    font-family: sans-serif;
+    color: #2f4060;
+    margin: 3%;
+}
+.transferebutton{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 250px;
+    margin: 5px;
+    border-color: #fff;
+    border-radius: 2em;
+    height: 3em;
+    background-color: #3f75b5;
+    }
+    .transferebutton:hover{
+        color: #3f75b5;
+        background-color: #fff;
+        border-color: #3f75b5;
+    }
+.input{
+    border-radius: 15px;
+    font-size: 12px;
+    padding-left: 15px;
+    border-color: #3f75b5;
+    margin: 5%;
+}
+/**************** ****************** */
+.con1{
+    width: 90%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .tb{
+       width: 100%; 
+       /*margin-left: 15%;*/
+       background-color: white;
+       border-color:rgba(33,37,41,1) ;
   }
