@@ -5,10 +5,10 @@ $to=$_POST['customerto'];
 $money=$_POST['money'];
 
 // connecting to database
-$servername = "sql106.epizy.com";
-$username = "epiz_31336166";
-$password = "fj8K9JLjYUH";
-$dbname = "epiz_31336166_banking_system";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "banking_system";
 
 
 
