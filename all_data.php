@@ -1,9 +1,9 @@
 <?php
 // connecting to database
-$servername = "localhost";
-$username = "root";
-$password = "";
-$dbname = "banking_system";
+$servername = "sql106.epizy.com";
+$username = "epiz_31336166";
+$password = "fj8K9JLjYUH";
+$dbname = "epiz_31336166_banking_system";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
