@@ -10,7 +10,7 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {
   die("Connection failed: " . $conn->connect_error);
 }
-$sql = "SELECT * FROM `all_data`";
+$sql = "SELECT * FROM `data_history`";
 $result = $conn->query($sql);
 ?>
 <!DOCTYPE html>
@@ -25,7 +25,7 @@ $result = $conn->query($sql);
     <title>Banking System</title>
 </head>
 <body class="container">
-<div class='transfereContainer'>
+<div class='transfereContainer'style='width: 80vw;overflow: scroll;'>
         <div class="back">
             <a href="index.php"><i class='fas fa-undo'></i></a>
         </div>
@@ -65,7 +65,7 @@ tr:nth-child(even) {
     <td><?=$row['money_from']?></td>
     <td><?=$row['money_to']?></td>
     <td><?=$row['money']?></td>
-    <td><?=$row['theDate']?></td>
+    <td><?=$row['theData']?></td>
   </tr>
   <?php
    }
