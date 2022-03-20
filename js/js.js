@@ -16,3 +16,17 @@ back.addEventListener("click",() =>{
     sec2.style.display="none";
 
 })
+
+// <!-- script to show nav bar -->
+var show = document.getElementById("showNav");
+        var showing = document.getElementById("showing");
+        var i = 0;
+        show.addEventListener("click", () => {
+            if (i === 0) {
+                showing.style.display = "block"
+                i = 1
+            } else {
+                showing.style.display = "none"
+                i = 0
+            }
+})
